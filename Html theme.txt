@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name of Portfolio</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 900px;
+            align-items: center;
+        }
+
+        .left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .left img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+        }
+
+        .right {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+        h1, h2, h3 {
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #1f1f1f;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="[image url]" alt="Profile Picture">
+        </div>
+        <div class="right">
+            <h1>Name of Portfolio</h1>
+            <h2>Name of Author</h2>
+            <p>About Me: [Write about yourself here]</p>
+            <h3>Midterm Lab Tasks</h3>
+            <ul>
+                <li>Midterm Lab Task 1</li>
+                <li>Midterm Lab Task 2</li>
+                <li>Midterm Lab Task 3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
